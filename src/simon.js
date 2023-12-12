@@ -6,7 +6,7 @@ function Game (gameArray, color) {
 
 Game.prototype.colorRandom = function () {
     this.color = Math.trunc(Math.random() * 4) + 1;
-    this.color.push.this.gameArray;
+    this.gameArray.push(this.color);
     // produce a random integer
 };
 
